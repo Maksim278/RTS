@@ -1,0 +1,83 @@
+
+body {
+   font-family: 'Courier New', monospace;
+   background-color: #282c34;
+   color: #eee;
+   line-height: 1.6;
+}
+
+
+.blog {
+   margin: auto;
+   max-width: 800px;
+}
+
+
+h1 {
+   font-size: 50px;
+   font-weight: 300;
+   color: #ff7f50;
+   text-align: center;
+}
+
+
+.card {
+   padding: 20px;
+   margin-bottom: 30px;
+   background-color: #343a40;
+   text-align: center;
+}
+
+
+a {
+ text-decoration: none;
+ color: #ff7f50;
+}
+
+.author{
+    color: gray;
+    text-align: right;
+}
+
+ .register {
+    position: absolute;
+    top: 0;
+    right: 80px;
+}
+
+.login {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logout {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.delete {
+    position: relative;
+    left: 357px;
+}
+
+labele{
+    center
+}
+.like {
+    height: 50px;
+    width: 60px;
+}
+
+.dislike {
+    height: 50px;
+    width: 60px;
+    left: 30px;
+}
+
+.add_posts {
+    position: absolute;
+    top: 0;
+    right: 80px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post</title>
+    <link rel="stylesheet" href="/static/cssblog.css">
+</head>
+<body>
+
+  <div class="post">
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    <p>By: {{ post.username }}</p>
+     <form method= "POST"
+        action = "{{url_for('delete_post', post_id = post.id) }}">
+        <button type="submit" class="delete">Delete</button>
+      </form>
+    </div>
+
+</body>
+</html>
