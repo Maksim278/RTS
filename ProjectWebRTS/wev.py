@@ -10,7 +10,7 @@ app = Flask(__name__)
 connection = sqlite3.connect('sqlite.db',check_same_thread=False)
 cursor = connection.cursor()
 
-app.config['SECRET_KEY'] = 'IO;JRFFOI;EWFIULIUERSGIBJLERGIUHERGIUIUHilouheroiuer9fher9o587345'
+app.config['SECRET_KEY'] = ''
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'
 
@@ -204,5 +204,6 @@ def dislike_post(post_id):
 
 if __name__ == '__main__':
     app.run()
+
 
 
